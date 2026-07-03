@@ -14,5 +14,5 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'clean compile exec:java'
-    options: '-Dexec.mainClass="com.example.App"' # Replace with your actual package and class name
+    options: '-Dexec.mainClass="com.example.Main"' # Replace with your actual package and class name
     publishJUnitResults: false
