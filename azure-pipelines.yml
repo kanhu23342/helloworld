@@ -13,7 +13,7 @@ steps:
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
-    goals: 'clean compile exec:java'
+    #goals: 'clean compile exec:java'
     options: '-e -Dexec.mainClass="org.example.Main"' # Replace with your actual package and class name
 - task: CmdLine@2
   inputs:
